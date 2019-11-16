@@ -23,6 +23,21 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         android:onClick="openAboutActivity" />
-    <
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="92dp"
+        android:text="Take a photo"
+        android:id="@+id/btnCamera" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView" />
+
+
 
 </RelativeLayout>
