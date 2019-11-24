@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".IntroductionActivity">
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:text="U-Note\nThis app is going to identify the text in a photo and translate it into the language that you need.
+        \nStep1: open your camera (need to allowed app access the camera).
+        \nStep2: click the take a photo button to take a photo.
+        \nThe text in the image will be automatically recognized if you get an error, please take another photo.
+        \nStep3:  click the translate button and choose a language you need
+        then the text will be translated."
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_green_dark"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+
+</RelativeLayout>

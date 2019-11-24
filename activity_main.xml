@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to use U-note"
-        android:textSize="30sp"
+        android:textSize="35sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
 
@@ -33,11 +33,18 @@
         android:text="Take a photo"
         android:id="@+id/btnCamera" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/imageView" />
+    <Button
+        android:id="@+id/btnIntro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnCamera"
+        android:layout_centerHorizontal="true"
+        android:text="Introduction" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"/>
 
 
 </RelativeLayout>
